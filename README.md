@@ -17,7 +17,7 @@ This project trains a deep learning model (ResNet-18) to distinguish between ima
 ```
 project/
 │
-├── train.py               # Main training script
+├── MuffsvsChi.py               # Main training script
 ├── data/
 │   ├── train/
 │   │   ├── chihuahua/
@@ -29,6 +29,8 @@ project/
 ├── last_checkpoint.pth
 └── ReloadApp.py
 ```
+
+`best_model.pth`, `last_checkpoint.pth` and the data is to large to upload. You could find the dataset through kaggle, whereas the best model and the last checkpoint files are created after the code is run.
 
 ---
 
