@@ -25,7 +25,9 @@ project/
 │   └── val/
 │       ├── chihuahua/
 │       └── muffin/
-└── best_model.pth         # Saved best model checkpoint
+├── best_model.pth         # Saved best model checkpoint
+├── last_checkpoint.pth
+└── ReloadApp.py
 ```
 
 ---
