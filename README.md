@@ -54,7 +54,7 @@ pip install torch torchvision --extra-index-url https://download.pytorch.org/whl
 Run training from the command line:
 
 ```bash
-python train.py --data-dir ./data --epochs 20 --batch-size 32 --use-amp
+python MuffsvsChi.py --data-dir ./data --epochs 20 --batch-size 32 --use-amp
 ```
 
 Available arguments:
@@ -78,7 +78,7 @@ Available arguments:
 ## Example Command
 
 ```bash
-python train.py --data-dir ./data --epochs 10 --batch-size 64 --optimizer sgd --use-amp
+python MuffsvsChi.py --data-dir ./data --epochs 10 --batch-size 64 --optimizer sgd --use-amp
 ```
 
 ---
